@@ -50,6 +50,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-PNLF.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PNLF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-USBX.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -63,14 +71,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PNLF.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PNLF.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -727,24 +727,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AMDRyzenCPUPowerManagement.kext</string>
-				<key>Comment</key>
-				<string>AMDRyzenCPUPowerManagement.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AMDRyzenCPUPowerManagement</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
 				<string>AppleALC.kext</string>
@@ -835,13 +817,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCAMDProcessor.kext</string>
+				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>SMCAMDProcessor.kext</string>
+				<string>SMCBatteryManager.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCAMDProcessor</string>
+				<string>Contents/MacOS/SMCBatteryManager</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -853,13 +835,31 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCBatteryManager.kext</string>
+				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string>SMCBatteryManager.kext</string>
+				<string>SMCLightSensor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCBatteryManager</string>
+				<string>Contents/MacOS/SMCLightSensor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCProcessorAMD.kext</string>
+				<key>Comment</key>
+				<string>SMCProcessorAMD.kext</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCProcessorAMD</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1758,7 +1758,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1815,7 +1815,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>Name</key>
@@ -1988,11 +1988,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C020193034N00001H</string>
+			<string>XXXXXXXX</string>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>YMVHs4XE</data>
+			<data>XXXXX</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -2000,9 +2000,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CP6ZBP3XY</string>
+			<string>XXXX</string>
 			<key>SystemUUID</key>
-			<string>CC2A6DBE-89A7-4F90-B735-CE23EC36C5A2</string>
+			<string>XXXX-XXXX-XXXX-XXXX-XXXX</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

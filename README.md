@@ -3,7 +3,7 @@
  <h2 align="center">MacOS on Lenovo Legion 5-15ACH6 - Ryzen 5600H &amp; GeForce RTX 3050 🇻🇳</h2>
 </p>
 <p align="center"><img src="https://img.shields.io/badge/Bios-HHCN36WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/Opencore-1.0.0-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Sonoma%2014.2.1-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
-<p align="center"><img src="https://github.com/kalkmann/Legion-5600H-Hackintosh/assets/8891448/78e72771-1634-4943-8756-80ef7500d237" alt="" /></p>
+<p align="center"><img src="https://github.com/ducviet5138/Hackintosh-Legion-5/assets/99721942/3e39478f-e998-431d-9b92-e9d99c350563" alt="" /></p>
 
 ## Considerations
 

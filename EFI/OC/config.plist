@@ -1789,24 +1789,6 @@
                     <key>TextMode</key>
                     <false/>
                 </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Ubuntu</string>
-                    <key>Path</key>
-                    <string>PciRoot(0x0)/Pci(0x1,0x2)/Pci(0x0,0x0)/NVMe(0x1,D0-D2-6B-15-00-2E-E4-AC)/HD(1,GPT,82425246-4C31-406E-8DCB-018CD7892BB9,0x800,0x32000)/\EFI\ubuntu\grubx64.efi</string>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
             </array>
             <key>Security</key>
             <dict>

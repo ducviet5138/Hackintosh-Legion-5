@@ -2,7 +2,7 @@
  <img width="129px" src="https://rallybr.com.br/logo-hacklegion.png" align="center" />
  <h2 align="center">MacOS on Lenovo Legion 5-15ACH6 - Ryzen 5600H &amp; GeForce RTX 3050 🇻🇳</h2>
 </p>
-<p align="center"><img src="https://img.shields.io/badge/Bios-HHCN36WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/Opencore-1.0.0-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Sonoma%2014.2.1-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
+<p align="center"><img src="https://img.shields.io/badge/Bios-HHCN37WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/Opencore-1.0.0-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Sonoma%2014.2.1-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
 <p align="center"><img src="https://github.com/ducviet5138/Hackintosh-Legion-5/assets/99721942/3e39478f-e998-431d-9b92-e9d99c350563" alt="" /></p>
 
 ## Considerations
@@ -25,7 +25,7 @@ _Information available only for possible references. I do not recommend followin
 | Item  | Info  |
 | ------------ | ------------ |
 | Model  | Legion 5-15ACH6 Type 82JW  |
-| Bios Version  | HHCN36WW  |
+| Bios Version  | HHCN37WW  |
 | CPU  |  AMD Ryzen™ 5 5600H Processor |
 |  DGPU | GeForce RTX 3050 4GB |
 | RAM  | 2x 16GB Kingston DDR4 2400/3200 MHz  |
@@ -54,7 +54,6 @@ _Information available only for possible references. I do not recommend followin
 | Bluetooth | ✅ | From Intel AX210 with IntelBluetoothFirmware.kext + BlueToolFixup Kext |
 | Battery | ✅ | VoodooBatteryStatus Kext |
 | Shutdown/Reboot | ✅ |   |
-| Sleep/Wake | ✅ | Finally working with Seey6 [CpuTscSync](https://github.com/Seey6/CpuTscSync "CpuTscSync") and SSDT for USB, but still facing some errors.|
 
 ## What's not Working
 
@@ -63,6 +62,7 @@ _Information available only for possible references. I do not recommend followin
 | dGPU | ❌ | GeForce RTX 3050 |
 | HDMI A/V out | ❌ | Because HDMI connects directly to the dGPU, which has been disabled |
 | NVMe SKHynix | ❌ | Disable it because it causes panic on macOS |
+| Sleep/Wake | ❌ | Only sleep in 5-6 secs.|
 | Brightness Control | ⚠️ | Using Windows brightness to adjust macOS brightness.
 | iServices | ❓ |   |
 | AppleTV+ DRM | ❓ | Untested yet |

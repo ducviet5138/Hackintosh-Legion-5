@@ -54,6 +54,7 @@ _Information available only for possible references. I do not recommend followin
 | Bluetooth | ✅ | From Intel AX210 with IntelBluetoothFirmware.kext + BlueToolFixup Kext |
 | Battery | ✅ | VoodooBatteryStatus Kext |
 | Shutdown/Reboot | ✅ |   |
+| Sleep/Wake | ✅ | By using ForgedInvariant|
 
 ## What's not Working
 
@@ -62,7 +63,6 @@ _Information available only for possible references. I do not recommend followin
 | dGPU | ❌ | GeForce RTX 3050 |
 | HDMI A/V out | ❌ | Because HDMI connects directly to the dGPU, which has been disabled |
 | NVMe SKHynix | ❌ | Disable it because it causes panic on macOS |
-| Sleep/Wake | ❌ | Only sleep in 5-6 secs.|
 | Brightness Control | ⚠️ | Using Windows brightness to adjust macOS brightness.
 | iServices | ❓ |   |
 | AppleTV+ DRM | ❓ | Untested yet |
@@ -82,7 +82,7 @@ _Information available only for possible references. I do not recommend followin
 | [AppleALC.kext](https://github.com/acidanthera/AppleALC) | Native macOS HD audio for not officially supported codecs |
 | [AppleMCEReporterDisabler.kext](https://files.amd-osx.com/AppleMCEReporterDisabler.kext.zip) | Disables AppleIntelMCEReporter which causes panics on AMD CPUs |
 | [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM) | Patches Bluetooth stack to allow non-Apple Bluetooth |
-| [CpuTscSync](https://github.com/Seey6/CpuTscSync "CpuTscSync") | It is a Lilu plugin, modify from CpuTscSync. It should solve some wake issues for AMD Mobile |
+| [ForgedInvariant](https://github.com/ChefKissInc/ForgedInvariant) | The plug & play kext for syncing the TSC on AMD & Intel. It should solve some wake issues for AMD Mobile |
 | [HoRNDIS.kext](https://github.com/jwise/HoRNDIS) | Android USB tethering driver for Mac OS X |
 | [IntelBTPatcher.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | Intel Bluetooth Kernel Extensions for macOS |
 | [IntelBluetoothFirmware.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | Intel Bluetooth Kernel Extensions for macOS |
@@ -107,9 +107,10 @@ Done with [SSDTTime](https://github.com/corpnewt/SSDTTime) in Windows 11
 | --- | --- |
 | [SSDT-EC](https://github.com/corpnewt/SSDTTime) | Adds a fake Embedded Controller device |
 | [SSDT-PLUG-ALT](https://github.com/corpnewt/SSDTTime) | Fixes CPU definitions |
-| SSDT-SLEEP | Prevents instant wake up of USB controllers. (after sleep, wake by pressing the power button) |
 | [SSDT-USBX](https://github.com/corpnewt/SSDTTime) | Enables USB Power Management |
 | [SSDT-XOSI](https://github.com/corpnewt/SSDTTime) | Spoof macOS to Windows for some ACPI features |
+| SSDT-GPU-OFF | Disable discrete card (Author: ExtremeXT) |
+| SSDT-NVME-OFF | Disable unsupportted NVMe SSD |
 
 ## Credits
 

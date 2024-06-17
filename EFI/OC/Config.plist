@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#OC0.9.9 - Sonoma 14.2 MacBookPro16,3</key>
+	<key>#OC1.0.0 - Sonoma 14.2 MacBookPro16,3</key>
 	<string>Author: kalkmann - Modified by ducviet5138</string>
 	<key>ACPI</key>
 	<dict>

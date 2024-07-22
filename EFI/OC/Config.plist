@@ -2051,7 +2051,7 @@
 			<key>AudioSupport</key>
 			<false/>
 			<key>DisconnectHda</key>
-			<false/>
+			<true/>
 			<key>MaximumGain</key>
 			<integer>-15</integer>
 			<key>MinimumAssistGain</key>

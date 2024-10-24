@@ -27,7 +27,7 @@ _Information available only for possible references. I do not recommend followin
 | Bios Version  | HHCN37WW  |
 | CPU  |  AMD Ryzen™ 5 5600H Processor |
 | DGPU | GeForce RTX 3050 4GB |
-| RAM  | 2x 16GB Kingston DDR4 2400/3200 MHz  |
+| RAM  | 2 x 8GB Kingston DDR4 2400/3200 MHz  |
 | NVMe  | SK Hynix 500GB / Western Digital SN550 1TB |
 | WIFI  | Intel® Wi-Fi 6E AX210 (need to make a replacement)|
 | Bluetooth  | With Intel wifi combo card  |
@@ -68,7 +68,7 @@ _Information available only for possible references. I do not recommend followin
 
 ## Bios Options
 
-*   **Only Discrete** GPU
+*   **Hybrid Mode** GPU
 *   Device Guard **Disabled**
 *   Secure Boot **Disabled**
 

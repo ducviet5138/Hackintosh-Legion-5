@@ -1,7 +1,10 @@
 <p align="center">
  <img width="129px" src="https://rallybr.com.br/logo-hacklegion.png" align="center" />
- <h2 align="center">MacOS on Lenovo Legion 5-15ACH6 - Ryzen 5600H &amp; GeForce RTX 3050 🇻🇳</h2>
 </p>
+<h2 align="center">MacOS on Lenovo Legion 5-15ACH6 - Ryzen 5600H &amp; GeForce RTX 3050 🇻🇳</h2>
+<p align="center"><i>Thank you <a href="https://github.com/kalkmann/Legion-5600H-Hackintosh">kalkmann</a> for mentioning my work in your repository.</i></p>
+
+
 <p align="center"><img src="https://img.shields.io/badge/Bios-HHCN37WW-blue?logo=lenovo&amp;logoColor=%23fff" alt="" />&nbsp;<img src="https://img.shields.io/badge/Opencore-1.0.0-black" alt="" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Sonoma%2014.2.1-green?logo=apple&amp;logoColor=%23fff" alt="" /></p>
 <p align="center"><img src="https://github.com/ducviet5138/Hackintosh-Legion-5/assets/99721942/3e39478f-e998-431d-9b92-e9d99c350563" alt="" /></p>
 
@@ -62,8 +65,8 @@ _Information available only for possible references. I do not recommend followin
 | dGPU | ❌ | GeForce RTX 3050 |
 | HDMI A/V out | ❌ | Because HDMI connects directly to the dGPU, which has been disabled |
 | NVMe SKHynix | ❌ | Disable it because it causes panic on macOS |
-| Brightness Control | ⚠️ | Using Windows brightness to adjust macOS brightness.
-| iServices | ❓ |   |
+| Brightness Control | ⚠️ | Using Windows brightness to adjust macOS brightness. |
+| iServices | ❌ | Not work on my PC, you can try it yourself|
 | AppleTV+ DRM | ❓ | Untested yet |
 
 ## Bios Options
@@ -121,3 +124,9 @@ Done with [SSDTTime](https://github.com/corpnewt/SSDTTime) in Windows 11
 *   [Apple](https://www.apple.com/) for macOS.
 *   [Acidanthera](https://github.com/acidanthera) for OpenCore and most Kexts.
 *   Anyone else that helped to develop and improve hackintoshing.
+*   [kalkmann](https://github.com/kalkmann/Legion-5600H-Hackintosh) for EFI repository.
+
+
+## Something helped? Leave a star!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ducviet5138/Hackintosh-Legion-5&type=Date)](https://www.star-history.com/#ducviet5138/Hackintosh-Legion-5&Date)

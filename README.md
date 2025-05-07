@@ -130,3 +130,13 @@ Done with [SSDTTime](https://github.com/corpnewt/SSDTTime) in Windows 11
 ## Something helped? Leave a star!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ducviet5138/Hackintosh-Legion-5&type=Date)](https://www.star-history.com/#ducviet5138/Hackintosh-Legion-5&Date)
+
+## ⚠️ Disclaimer
+
+This repository is intended for **educational and research purposes only**. Installing macOS on non-Apple hardware (Hackintosh) may **violate Apple's End User License Agreement (EULA)**. By using the information provided here:
+
+- You acknowledge and agree that you are doing so **at your own risk**.
+- I am **not responsible** for any damage to your hardware or loss of data.
+- This project is **not affiliated with Apple Inc.**, Lenovo, or any other company mentioned.
+
+If you are the rightful owner of any material used in this project and would like it to be removed or properly credited, feel free to contact me at **ducviet5138@gmail.com** using your official company email. I will respond promptly and take appropriate action as needed.
